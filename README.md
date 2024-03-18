@@ -262,7 +262,7 @@ Formato de las tareas:
 | `crontab -e -u username`         |                                  |
 | `crontab -r`                     |                                  |
 
-- **Carpetas de scripts**
+**Carpetas de scripts**
 
 Los scripts que se encuentren en uno de los siguientes directorios se ejecutarán en el intervalo especificado por el nombre del directorio:
 - `/etc/cron.hourly`
@@ -270,13 +270,13 @@ Los scripts que se encuentren en uno de los siguientes directorios se ejecutará
 - `/etc/cron.weekly`
 - `/etc/cron.monthly`
 
-- **Permitir / Denegar uso**
+**Permitir / Denegar uso**
 
 Añadir nombres de usuario, uno por línea a los siguientes archivos:
 - `/etc/cron.allow` Whitelist
 - `/etc/cron.deny` Blacklist
 
-- **Logs**
+**Logs**
 
 La ejecución de cronjobs se registra en `/var/log/cron`.
 Los resultados se envían al correo de los usuarios `/var/spool/mail/username`.
